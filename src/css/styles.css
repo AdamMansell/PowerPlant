@@ -1,0 +1,9 @@
+header, footer {
+  height: 40px;
+}
+button {
+  margin: 30px 0px 30px 0px;
+}
+.form-control {
+  width: 200px;
+}
