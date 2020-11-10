@@ -28,6 +28,15 @@ const changeState = (prop) => {
   };
 };
 
+const createNewPlant = (name) => {
+  let plantName = {
+    name
+  }
+  return { ...plantName, ...changeState(name) }
+}
+
+const planty = createNewPlant("Planty");
+
 // We create four functions using our function factory. We could easily create many more.
 
 // const feed = changeState("soil")(1);
